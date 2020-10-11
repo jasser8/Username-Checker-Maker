@@ -26,7 +26,7 @@ from colorama import Fore, init, Style
 import requests,os,threading, time
 
 init(convert = True)
-print(Fore.CYAN) #literally didnt work when i put it in an f string
+print(Fore.CYAN) 
 filepath = input(f"[!] Write the name of the text file containing all names - eg 'usernames.txt'\\n[!] ")
 amount = int(0)
 valid = int(0)
