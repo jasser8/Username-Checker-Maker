@@ -57,7 +57,7 @@ f.write("""
 		print(f"{Fore.WHITE}[{Fore.RED}-{Fore.WHITE}] {Fore.RED}{line.strip()} - ERROR")
 		invalid = invalid + 1
 	amount = amount + 1
-	os.system(f"title Fortnite Username Checker // Checked {amount} Out of {totalamount} - UNTAKEN : {valid} // TAKEN : {invalid}")
+	os.system(f"title Username Checker // Checked {amount} Out of {totalamount} - UNTAKEN : {valid} // TAKEN : {invalid}")
 
 
 with open(filepath) as f:
